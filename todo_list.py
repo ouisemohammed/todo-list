@@ -1,8 +1,11 @@
 todo_list = []
+
 #starting the while loop to get the project going
 while(True):
+
 #asking the user for his action 
     user_insert = input("please choose between 'add , view , delete, exit :'")
+    
 #checking different cases of user insert even if the user inserted something no aviable
     if user_insert == "add":
         task = input('please inter a task :')
